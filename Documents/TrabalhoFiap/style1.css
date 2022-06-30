@@ -1,0 +1,102 @@
+:root {
+    --spacing: 20px;  
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  pading: var(--spacing);
+}
+
+header .logo {
+    margin: 25px;
+    height: 170px;
+}
+
+article h1 {
+    margin: 20px;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+article h2 {
+    margin: 11px;
+    font-size: 16pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+footer > button:nth-child(1) {
+    display: block;
+    background-color: dimgray;
+    border: none;
+    border-radius: 20px;
+    margin: calc(var(--spacing) / 2);
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    width: 300px;
+    margin: 10 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .facebook {
+    height: 40px;
+    width: 40px;    
+}
+
+footer > button:nth-child(2) {
+    display: block;
+    background-color: dimgray;
+    border: none;
+    border-radius: 20px;
+    margin: calc(var(--spacing) / 2);
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    width: 300px;
+    margin: 10 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .gmail {
+    height: 40px;
+    width: 40px;    
+}
+
+footer > button:nth-child(3) {
+    display: block;
+    background-color: dimgray;
+    border: none;
+    border-radius: 20px;
+    margin: calc(var(--spacing) / 2);
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    width: 300px;
+    margin: 10 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .apple {
+    height: 40px;
+    width: 40px;    
+}
+
+footer > button:nth-child(4) {
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    margin: calc(var(--spacing) / 2);
+    font-size: 15pt;
+    width: 300px;
+    margin: 10 auto;
+    padding: 15px;
+}

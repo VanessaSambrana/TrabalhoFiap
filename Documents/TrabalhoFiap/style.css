@@ -1,0 +1,57 @@
+:root {
+    --spacing: 20px;  
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  pading: var(--spacing);
+}
+
+header .logo {
+    margin: 25px;
+    height: 240px;
+}
+
+article h1 {
+    margin: 20px;
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+article h2 {
+    margin: calc(var(--spacing) / 2);
+    font-size: 12pt;
+    font-weight: normal;
+    color: yellowgreen;
+    text-align: center;
+}
+
+footer {
+    padding: var(--spacing);
+}
+
+footer > button:nth-child(1) {
+    display: block;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    font-size: 15pt;
+    font-weight: bolder;
+    width: 250px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 15pt;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 15px;
+}
